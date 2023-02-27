@@ -11,12 +11,12 @@
     <div class="row mt-5">
         <div class="col-3"></div>
         <div class="col-6 border">
-            <form action="" class="mt-3" method="post">
+            <h1>Add Todo</h1>
+            <form action="" class="mt-5" method="post">
                 {%csrf_token%}
                 {{form.as_p}}
-
                 <div class="mb-3">
-                    <button type="submit" class="btn btn-info">SignUp</button>
+                    <button type="submit" class="btn btn-info">Add</button>
                 </div>
             </form>
         </div>
