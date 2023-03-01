@@ -12,12 +12,3 @@ class Todos(models.Model):
     def __str__(self):
         return self.task_name
 
-# registration
-# get=>return registration template
-# post=>add user to usermodel
-# =========================================
-# login
-# addtodo
-# listtodos
-# updatetodo
-# deletetodo

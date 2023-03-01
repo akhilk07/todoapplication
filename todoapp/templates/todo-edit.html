@@ -11,13 +11,13 @@
     <div class="row mt-5">
         <div class="col-3"></div>
         <div class="col-6 border">
-            <h1>Add Todo</h1>
+            <h1>Change Todo</h1>
             <form action="" class="mt-5" method="post">
                 {%csrf_token%}
 
                 {{form.as_p}}
                 <div class="mb-3">
-                    <button type="submit" class="btn btn-info">Add</button>
+                    <button type="submit" class="btn btn-info">Change</button>
                 </div>
             </form>
         </div>
