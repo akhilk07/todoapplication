@@ -65,7 +65,7 @@ class TodoAddView(CreateView):
     model = Todos
     form_class = forms.TodoForm
     template_name = "add-todo.html"
-    success_url = reverse_lazy("todos-list")
+    success_url = reverse_lazy("index")
 
     def form_valid(self, form):
         form.instance.user=self.request.user
